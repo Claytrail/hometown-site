@@ -1,0 +1,148 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+
+I used a different color pallete 
+*/
+
+
+
+body {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+h1,h2,h3,h4,p {
+    color: #1E1629;
+}
+
+h1, h2 {
+    text-shadow: 0 0 1px #DDE1AE;    
+}
+
+
+.hero {
+    padding: 100px 30px 0px 30px;
+    height: 300px;
+    background-color: blue;
+    background-size: cover;
+    background-image: url("https://www.compass.com/m/69f9e2c02685acfba3070a8802251706c5af882b_img_38/1500x1000.webp");
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#title {
+    background-color: #4D5382;
+    margin: 30px 30px 0px; 
+    padding: 5px 10px;
+    border-radius: 10px;
+}
+
+#intro {
+    background-color: #658E9C;
+    margin: 15px;
+    padding: 10px 40px;
+    border-radius: 10px;
+    max-width: 600px;
+    min-width: 200px;
+}
+
+
+
+#grapes-img {
+    background-image: url('images/grapes.webp');
+    background-size: cover;
+    background-position: center;    
+    background-color: red;
+}
+
+#andrews-img {
+    background-image: url('images/andrews.jpeg');
+    background-size: cover;    
+    background-color: blue;
+}
+
+#youth-fair-img {
+    background-image: url('images/youth-fair.jpeg');
+    background-size: cover;
+    background-color: green;
+}
+
+.circle-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%
+}
+
+#nugget-div {
+    background-color: #DDE1AE;
+    padding: 60px 0 60px 0;
+}
+
+
+
+.img-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.img-title {
+    margin: 10px;
+    margin-top: 20px;
+    width: 220px;
+    align-content: center;
+}
+
+.circle-title {
+    margin: auto;
+    width: 170px;
+}
+
+.card {
+    border-radius: 10px;
+    margin: 40px auto;
+    display: flex;
+    background-color: #658E9C;
+    width: 370px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px #4D5382;
+    padding: 10px;
+}
+
+.card-photo {
+    background-image: url("images/jay.jpeg");
+    width: 150px;
+    height: 220px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0;
+}
+
+.card-text {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-content {
+    margin: 10;
+    width: 200px;
+}
+
+.card-name {
+    margin: 0;
+}
